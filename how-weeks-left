@@ -1,0 +1,35 @@
+'''what is the equation to convert height front FT to m? 
+what is the eaqution to convert weight from LB to Kg? '''
+#lb =  input('I weigh ' + 'lbs.')
+#inches = input('I am ' + 'inches tall.')
+#looking to print the question? how much do you weight and have the user inout the answer and it print as a string and int. ie, i weight x lbs
+inches = int(input("Hey American, enter your height in inches: "))
+lb = int(input("Wow thats short(thats what she said), now enter your weight in lbs: "))
+m = inches / 39.37
+kg = lb / 2.205
+
+# Was trying to display the following: Your weight is x in kg but im unsuccessful because its going to print out a string and an int. gotta learn how to do that
+
+#Answer: type cast the int() to a str()
+print("This is your height in " + str(m))
+# currently running test 
+ # Success!(building blocks baby)
+
+print("This is your height in " + str(kg))
+
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+'''what is the equation to convert height front FT to m? 
+what is the eaqution to convert weight from LB to Kg? '''
+# lb = int(input('I weigh '))
+# inches = int(input('I am this tall'))
+# kg = lb / 2.205
+# m = inches / 39.37
+BMI = kg/m**2
+print(int(BMI))
+
+# Great Job on this program Tasks complete!
